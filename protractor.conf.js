@@ -25,6 +25,10 @@ exports.config = {
             ]
         }
     },
+    
+    plugins: [{
+      path: 'node_modules/serenity-js/lib/serenity-protractor/plugin'
+    }],
 
     // so that every tests starts with a system in a known state
     restartBrowserBetweenTests: true
